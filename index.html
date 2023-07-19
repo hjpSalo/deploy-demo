@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Styling</title>
+        <style>
+        body {background-color: purple;
+              padding: 1rem;
+        }
+        html { font-size: 18px; }
+        #container {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            align-items: flex-start;
+            background-color: lightyellow;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .red {
+            padding: 16px;
+            background-color: red;
+        }
+
+        .blue {
+            padding: 1rem;
+            background-color: lightblue;
+        }
+
+        .green {
+            background-color: lightgreen;
+        }
+        </style>
+    </head>
+    <body>
+<div id="container">
+  <div class="blue">
+    50
+  </div>
+  <div class="red">
+    55
+  </div>
+  <div class="green">
+    60
+  </div>
+  <div class="blue">
+    65
+  </div>
+  <div class="red">
+    70
+  </div>
+  <div class="green">
+    75
+  </div>
+</div>    </body>
+</html>
